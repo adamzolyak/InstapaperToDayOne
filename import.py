@@ -30,9 +30,9 @@ entry = cleaned
 
 result = subprocess.call(['dayone2', 'new',
                           entry,
-                          '--journal', "Daily Life",
                           '--time-zone', "America/Denver",
                           '--tags', "Instapaper"])
+
 
 if result == 0:
     print(f"Summary: Created new journal entry with {i} highlights...")
